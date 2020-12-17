@@ -8,13 +8,29 @@
        <title> Pinatubo- HOME</title>
     <style>
         @font-face {
-        font-family: 'addlgbitmap09';
-        src: url(fonts/ADDLG__.ttf) format('truetype');
-        font-family: 'arcade';
-        src: url(fonts/arcade.ttf) format('truetype') ;
-        font-family: 'addwbitmap09';
-        src: url(fonts/addwb__.ttf) format('truetype');
-        }
+    font-family: 'addlgbitmap09regular';
+    src: url('addlg___-webfont.woff2') format('woff2'),
+         url('addlg___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+     }
+     @font-face {
+         font-family: 'addwbitmap09regular';
+         src: url('addwb___-webfont.woff2') format('woff2'),
+              url('addwb___-webfont.woff') format('woff');
+         font-weight: normal;
+         font-style: normal;
+
+     }
+     @font-face {
+         font-family: 'arcaderegular';
+         src: url('arcade-webfont.woff2') format('woff2'),
+              url('arcade-webfont.woff') format('woff');
+         font-weight: normal;
+         font-style: normal;
+
+     }
         body{
             background-color: #020320;
             text-align: center;
@@ -26,8 +42,7 @@
             margin: auto;
         }
         p{
-            font-family: 'arcade', arial, sans-serif;
-            src: url(fonts/ARCADE.TTF);
+            font-family: 'arcaderegular', arial, sans-serif;
             font-size:32px;
             color: #efa018;
         }
@@ -37,8 +52,7 @@
             margin-bottom: 20px;
         }
         th{
-            font-family: 'addwbitmap09', arial, sans-serif;
-            src: url(fonts/ADdwb__.ttf);
+            font-family: 'addwbitmap09regular', arial, sans-serif;
             color:darkorange; 
             font-size: 20px;
             width: 11.11%;
